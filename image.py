@@ -18,7 +18,7 @@ CLASSES_LIST_VIDEO = ['HorseRace', 'VolleyballSpiking', 'Biking', 'TaiChi', 'Pun
 
 # Load the model
 image_model_path = 'efficientnet_model.h5'
-video_model_path = 'model_final.h5'
+video_model_path = 'model_final-4.h5'
 efficientnet_model = load_model(image_model_path)
 LRCN_model = load_model(video_model_path)
 
